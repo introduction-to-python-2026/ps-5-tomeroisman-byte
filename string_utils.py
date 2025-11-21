@@ -36,5 +36,3 @@ def count_atoms_in_molecule(formula):
       else:
         atoms[prefix] = num
     return atoms
-
-   

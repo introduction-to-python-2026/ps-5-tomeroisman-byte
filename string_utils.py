@@ -17,7 +17,8 @@ def split_at_digit(formula):
     digit_location = None
     for i in range(len(formula)):
       if formula[i].isdigit() == True:
-        break
+            digit_location = i
+            break
   
     if digit_location is None:
       return formula, 1

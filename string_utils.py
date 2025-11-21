@@ -1,6 +1,3 @@
-
-
-
 def split_before_uppercases(formula):
     end = 1
     start = 0
@@ -28,8 +25,6 @@ def split_at_digit(formula):
       prefix = formula[:digit_location]
       numeric = int(formula[digit_location:])
       return prefix,numeric
-
-
 
 def count_atoms_in_molecule(formula):
     atoms = {}
